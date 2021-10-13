@@ -24,8 +24,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-go-
       - name: Test
-        env:
         run: make test
       - name: Coverage
-        env:
         run: make coverage
