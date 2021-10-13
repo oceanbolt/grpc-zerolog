@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/philip-bui/grpc-zerolog/test"
+	"github.com/oceanbolt/grpc-zerolog/test"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

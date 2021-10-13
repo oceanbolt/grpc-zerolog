@@ -5,7 +5,7 @@ import (
 	"context"
 	"testing"
 
-	pb "github.com/philip-bui/grpc-zerolog/protos"
+	pb "github.com/oceanbolt/grpc-zerolog/protos"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"

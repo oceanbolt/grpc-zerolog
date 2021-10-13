@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option go_package = "github.com/oceanbolt/grpc-zerolog/protos;test";
+
 message TestMessage {
 	string test = 1;
 }

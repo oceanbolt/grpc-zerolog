@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	pb "github.com/philip-bui/grpc-zerolog/protos"
+	pb "github.com/oceanbolt/grpc-zerolog/protos"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

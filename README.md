@@ -5,17 +5,17 @@
 [![GoReport Widget]][GoReport Status]
 [![GoDoc Widget]][GoDoc]
 
-[BuildStatus Result]: https://travis-ci.org/philip-bui/grpc-zerolog
-[BuildStatus Widget]: https://travis-ci.org/philip-bui/grpc-zerolog.svg?branch=master
+[BuildStatus Result]: https://travis-ci.org/oceanbolt/grpc-zerolog
+[BuildStatus Widget]: https://travis-ci.org/oceanbolt/grpc-zerolog.svg?branch=master
 
-[CodeCov Result]: https://codecov.io/gh/philip-bui/grpc-zerolog
-[CodeCov Widget]: https://codecov.io/gh/philip-bui/grpc-zerolog/branch/master/graph/badge.svg
+[CodeCov Result]: https://codecov.io/gh/oceanbolt/grpc-zerolog
+[CodeCov Widget]: https://codecov.io/gh/oceanbolt/grpc-zerolog/branch/master/graph/badge.svg
 
-[GoReport Status]: https://goreportcard.com/report/github.com/philip-bui/grpc-zerolog
-[GoReport Widget]: https://goreportcard.com/badge/github.com/philip-bui/grpc-zerolog
+[GoReport Status]: https://goreportcard.com/report/github.com/oceanbolt/grpc-zerolog
+[GoReport Widget]: https://goreportcard.com/badge/github.com/oceanbolt/grpc-zerolog
 
-[GoDoc]: https://godoc.org/github.com/philip-bui/grpc-zerolog
-[GoDoc Widget]: https://godoc.org/github.com/philip-bui/grpc-zerolog?status.svg
+[GoDoc]: https://godoc.org/github.com/oceanbolt/grpc-zerolog
+[GoDoc Widget]: https://godoc.org/github.com/oceanbolt/grpc-zerolog?status.svg
 
 Implementation of gRPC Logging Middleware, integrating [Zerolog](https://github.com/rs/zerolog) as a gRPC [Interceptor](https://github.com/grpc-ecosystem/go-grpc-middleware) to log the following fields:
 
@@ -27,7 +27,7 @@ Implementation of gRPC Logging Middleware, integrating [Zerolog](https://github.
 
 ```go
 import (
-	"github.com/philip-bui/grpc-zerolog"
+	"github.com/oceanbolt/grpc-zerolog"
 )
 
 func main() {
@@ -46,4 +46,4 @@ func main() {
 
 ## License
 
-gRPC Zerolog is available under the MIT license. [See LICENSE](https://github.com/philip-bui/grpc-zerolog/blob/master/LICENSE) for details.
+gRPC Zerolog is available under the MIT license. [See LICENSE](https://github.com/oceanbolt/grpc-zerolog/blob/master/LICENSE) for details.
